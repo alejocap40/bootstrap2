@@ -11,6 +11,7 @@ body {
     background-color: #88868a;
     
     
+    
 }
 
 /* -------------------------header----------------------------------------------------- */
@@ -18,7 +19,8 @@ body {
 header{
     position: sticky;
     top: 0;
-    background-color: #605d63;    
+    background-color: #605d63; 
+    margin-bottom: 30px;   
 }
 
 .navColor {
@@ -33,10 +35,10 @@ header{
 
 
 
-.logo {
-    width: 70px;
-    height: 70px;
-}
+/* .logo {
+    width: 100px;
+    height: 100px;
+} */
 
 .itemNav {
     font-size: 2.5rem;
@@ -61,6 +63,10 @@ header{
     border: #605d63;
 }
 
+.centrarLi {
+    margin-right: 40px;
+}
+
 /* ----------------------------------------------------------Main-------------------------------------------- */
 
 
@@ -78,14 +84,14 @@ main h2 {
 
 
 .destacados img {   
-/*     border-style: solid;
-    border-color: 1px ; */
+
     border-radius: 10px; 
     width: 250px;
     margin-right: 50px;
     box-shadow: 2px 2px 10px rgb(70, 69, 69);
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     display: block;
     
     
@@ -106,6 +112,19 @@ main h2 {
 .boton a {
     text-decoration: none;
 }
+
+.boton a:visited {
+    color: white;
+}
+
+.boton a:hover {
+   color: #605d63
+
+}
+
+/* .boton a:link {
+    color: white;
+} */
 
 .boton {
     all: unset;
@@ -135,38 +154,23 @@ main h2 {
 /* ------------------------------------FOOTER---------------------------------------- */
 
 footer {
-background-color: #605d63;  
+background-color: #605d63;
+margin-top: 70px;  
 }
 
-.pie {
-    display: flex;
-    margin-top: 15%;
-    background-color: #605d63;
-    justify-content: space-between;
-}
 
-.pie li {
+.pieContactenos li {
     list-style-type: none;
-}
-.pieContactenos {
-    margin-left: 40px;
-    text-align: left;
-    background-color: #605d63;
     
 }
+
+.pieSeguinos li {
+    list-style-type: none;
+}
+
 
 .pieContactenos img {
     width: 35px;
-}
-
-.pieSeguinos{
-    margin-right: 100px;
-    text-align: right;
-    background-color: #605d63;
-    
-
-    
-
 }
 
 .pieSeguinos img {
@@ -184,9 +188,6 @@ background-color: #605d63;
     display: inline-block;
 }
 
-.pie li h4 {
-    margin-left: 10px;
-}
 
 .pieSeguinos p {
     margin-top: 40px;
@@ -196,7 +197,26 @@ background-color: #605d63;
 .pieSeguinos ul {
     margin-right: 20px;
     margin-top: 10px;
+    
 }
+
+.pieContactenos h3 {
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.pieSeguinos h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.pieSeguinos p {
+    text-align: end;
+}
+
+
+
 
 /* -----------------------------Productos----------------------------------------- */
 
@@ -213,8 +233,9 @@ background-color: #605d63;
 }
 
 .prodPrinImg img {
-    border: 2px black solid;
-    border-radius: 4px;
+    border-radius: 10px; 
+    margin-right: 50px;
+    box-shadow: 2px 2px 10px rgb(70, 69, 69);
 }
 
 .precio p {
@@ -252,35 +273,12 @@ background-color: #605d63;
 
 /* --------------------------CONTACTO---------------------------------- */
 
-.formu {
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.consultaDos textarea{
-    display: block;
-}
-
-.nombres label {
-    display: block;
+.direccion {
     font-size: 1.5rem;
-    margin-top: 10px;
-    }
-
-.campos input {
-    display: block;
-    font-size: 1.5rem;
-    margin-top: 5px;
-}
-
-.nombres button {
-    display: block;
 }
 
 .mapa {
-    margin: 80px 0px 0px 100px;
+    margin-top: 20%;
 }
 
 
