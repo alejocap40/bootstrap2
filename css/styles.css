@@ -82,6 +82,9 @@ main h2 {
     justify-content: center;
 }
 
+.destacados {
+    margin-top: 50px;
+}
 
 .destacados img {   
 
@@ -117,15 +120,6 @@ main h2 {
     color: white;
 }
 
-.boton a:hover {
-   color: #605d63
-
-}
-
-/* .boton a:link {
-    color: white;
-} */
-
 .boton {
     all: unset;
     background-color:#605d63;
@@ -133,7 +127,7 @@ main h2 {
     border-radius: 2px;
     text-decoration: none;
     color:white;
-    transition-duration: 0.4;
+    transition-duration: 10;
     text-align: center;
     width: 130px;
     height: 50px;
@@ -143,9 +137,9 @@ main h2 {
 
 
 .boton:hover{
-    background-color: white;
-    color: #605d63;
-}
+    background-color: #A4A1A0;
+    color: white;
+    }
 
 .separacion {
     margin-top: 50px;
@@ -257,8 +251,8 @@ margin-top: 70px;
 }
 
 .botonProd:hover{
-    background-color: white;
-    color: #605d63;
+    background-color: #A4A1A0;
+    color: white;
 }
 
 .prodDescripDos  {
